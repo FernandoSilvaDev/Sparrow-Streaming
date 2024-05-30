@@ -76,11 +76,16 @@ body {
 
 #poupup {
     color: #fff;
-}        
+}
+
 /* _____________________________________________________________Screen Phone_______________________________________ */
 @media screen and (max-width:640px) {
     #text-center {
     margin-top: 12px;
+    }
+
+    .carousel-indicators {
+        display: none;
     }
 
     footer {
@@ -103,5 +108,9 @@ body {
     .modal {
         margin-top: 350px;
         --bs-modal-margin: 0.9rem;
+    }
+
+    .row {
+        --bs-gutter-x: 1.rem;
     }
 }
