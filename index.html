@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sparrow streaming</title>
+</head>
+<body>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div id="cabecalho" class="container p-0">
+            <header id="header">
+                <div class="navbar navbar-expand-lg">
+                    <img id="logo-header" class="navbar navbar-brand" src="./Imagens/Logo Sparrow.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-theme="dark" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collpase navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#carousel" class="nav-link active">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#destaque" class="nav-link">Destaque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#lancamento" class="nav-link">Lançamentos</a>
+                            </li>
+                        </ul>
+                        <button id="btn-login" class="btn btn-dark">Login</button>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    
+<!-- ______________________________________________Carousel________________________________________________________ -->
+    
+        <div>
+            <div id="carousel" class="carousel slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="4000" class="carousel-item active">
+                        <img src="./Imagens/Wallpapers/Fallout.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./Imagens/Wallpapers/Duna 2.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./Imagens/Wallpapers/Flash.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./Imagens/Wallpapers/One Piece.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./Imagens//Wallpapers/Terminator.jpg" alt="" class="d-block w-100">
+                    </div>
+                    <div data-bs-interval="4000" class="carousel-item">
+                        <img src="./Imagens/Wallpapers/The last of us.jpg" alt="" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" ></button>
+                </div>
+            </div>
+        </div>
+<!-- _______________________________________________Cards____________________________________________________________ -->
+        <div id="cards" class="container p-0">
+            <h2 id="destaque">Destaques</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Evangelion.jpg">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Gladiator.jpg">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Oblivion.png">
+                    </article>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div id="text-center" class="col-sm-12 col-md-6 col-lg-4">
+                    <div>
+                        <h3>Assista do seu jeito</h3>
+                        <p>Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card">
+                        <img id="img-center" src="./Imagens/original.png">
+                    </div>
+                </div>
+            </div>
+            <h2 id="lancamento">Lançamentos</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Player 1.jpg">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Titanic.jpg">
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img src="./Imagens/Tropa de Elite.png">
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- __________________________________________________Accordion_____________________________________________________ -->
+
+<div class="container mt-4 p-0">
+    <h2 id="perguntas">Perguntas Frequentes</h2>
+    <div class="accordion p-3" data-bs-theme="dark">
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">O que está incluído no Sparrow+</button>
+            </div>
+            <div id="resposta1" class="accordion-collpase collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <p>Experiência de entretenimento exclusiva.</p>
+                        <p>As melhores histórias Pixar, Marvel, Star Wars e National Geographic, tudo em um só lugar.</p>
+                        <p>Downloads ilimitados em até 10 dispositivos compatíveis.</p>
+                        <p>Mais de 300 títulos em 4K UHD e HDR.</p>
+                        <p>A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">Quais as formas de pagamento posso utilizar?</button>
+            </div>
+            <div id="resposta2" class="accordion-collpase collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <p>
+                            Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">Como posso ver conteúdo com classificação indicativa até 16 e 18</button>
+            </div>
+            <div id="resposta3" class="accordion-collpase collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <p>Para poder acessar o catálogo completo que inclui conteúdo com classificação indicativa até 16 e 18, todos os usuários do Sparrow+ na América Latina devem atualizar as configurações de controle parental do perfil. É possível restringir o conteúdo de cada perfil e também adicionar um PIN de bloqueio. Os usuários que preferirem manter a configuração atual vão continuar aproveitando o Sparrow+ com a classificação indicativa até 14, podendo alterá-la a qualquer momento em "Editar Perfis".</p>
+                    </ul>
+                </div>
+                    
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta4">Onde posso assistir ao Sparrow+?</button>
+            </div>
+            <div id="resposta4" class="accordion-collpase collapse">
+                <div class="accordion-body">
+                    <ul>
+                        <p>O aplicativo do Sparrow+ está disponível em dispositivos móveis, navegadores, videogames, decodificadores e smart TVs. Confira <a href="#">a lista completa de dispositivos compatíveis na Central de ajuda.</a></p>
+                    </ul>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ____________________________________________________________Rodapé_______________________________________________________________ -->
+
+    <div class="container mt-4 mb-4 p-0">
+        <div class="row">
+            <footer>
+                2024 &reg DevFernando Silva - Todos os direitos reservados
+            </footer>
+        </div>
+    </div>
+
+<!-- ____________________________________________________Modal automatic with options________________________________________________ -->
+    <div id="poupup" class="container p-0">
+        <div class="modal" id="modal" data-bs-theme="dark" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Preferências de cookies</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Nós e nossas <a href="#">Afiliados</a> utilizamos terceiros para acessar e armazenar dados no seu dispositivo a fim de analisar o uso e aprimorar sua experiência, além de personalizar, mensurar e fornecer conteúdos e anúncios. Para obter mais informações, consulte nossa <a href="#">Política de Privacidade</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Aceitar todos os cookies</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Gerenciar preferências de cookies</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./lib/bootstrap.bundle.min.js" ></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const modalExemplo = new bootstrap.Modal('#modal')
+        setTimeout(function(){
+            modalExemplo.show()
+        }, 2000)
+    })
+</script>
+</html>
